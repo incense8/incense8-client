@@ -1,0 +1,180 @@
+.Header {
+  font-size: 1rem;
+  height: 98px;
+  display: flex;
+  justify-content: space-around;
+  align-content: flex-start;
+  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+}
+
+.companyinfo {
+  align-items: stretch;
+  justify-content: space-evenly;
+  display: flex;
+  width: 43%;
+  align-content: stretch;
+  align-items: center;
+}
+.Headerdown {
+  background-color: white;
+  height: 98px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition-delay: 0.6ms;
+  animation-name: Headerdown;
+  animation-duration: 1s;
+}
+.Services_check ul li {
+  list-style: none;
+}
+.Services ul li {
+  list-style: none;
+}
+.Services ul li a {
+  font-size: 28px;
+  text-decoration: none;
+
+  /* font-family: sans-serif; */
+}
+.Services_check ul li a {
+  font-size: 28px;
+  text-decoration: none;
+  font-family: "DM sans";
+  /* font-family: ; */
+}
+
+.OurServices {
+  display: flex;
+  align-items: center;
+  width: 40%;
+  justify-content: center;
+  align-content: center;
+}
+.companyinfo {
+  -webkit-align-items: stretch;
+  -moz-box-align: stretch;
+  align-items: stretch;
+  -webkit-justify-content: space-evenly;
+  -moz-box-pack: space-evenly;
+  justify-content: flex-start;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: flex;
+  width: 37%;
+  -webkit-align-content: stretch;
+  align-content: stretch;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  align-items: center;
+}
+.Services {
+  width: 96%;
+
+  display: flex;
+  -webkit-justify-content: center;
+  -moz-box-pack: center;
+  justify-content: flex-end;
+}
+.Services_check {
+  padding-top: 12px;
+  display: flex;
+
+  justify-content: space-evenly;
+  align-items: stretch;
+  align-content: center;
+  flex-direction: row;
+}
+.Services_check {
+  display: flex;
+  /* background: red; */
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-content: stretch;
+  flex-wrap: nowrap;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.Services ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.Services_check ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.Services div button {
+  font-size: 19px;
+  height: 30px;
+  width: 114px;
+ 
+  border: none;
+  border-radius: 11px;
+  background: rgb(221, 216, 216);
+  color: rgb(7, 6, 6);
+}
+.Headerdown {
+  z-index: 3;
+  width: 100%;
+  font-size: 1rem;
+  height: 8vh;
+  display: flex;
+  justify-content: space-around;
+  align-content: flex-start;
+  position: fixed;
+}
+.Logo_name {
+  align-items: center;
+  font-size: 2vw;
+  display: grid;
+  grid-template-columns: 40px 191px;
+  justify-items: center;
+}
+.user_credentional {
+  width: 68%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.header_center_cont {
+  display: flex;
+  width: 85%;
+  align-items: flex-end;
+}
+.Logo_name > img {
+  width: 53px;
+  height: 50px;
+}
+.Dashboard_info{
+  width: 58%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.user_navigation{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.Signup_login{
+  width: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+@keyframes Headerdown {
+  from {
+    top: -10%;
+  }
+  to {
+    top: 0%;
+  }
+}

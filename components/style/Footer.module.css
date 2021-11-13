@@ -1,0 +1,38 @@
+.footer {
+  display: flex;
+  background: #d7cfcf;
+  height: 38vh;
+  justify-content: center;
+  align-items: center;
+}
+.footerHeader {
+  display: -webkit-flex;
+  display: -moz-box;
+  display: flex;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  align-items: stretch;
+  height: 32vh;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+  align-content: stretch;
+  width: 100%;
+}
+
+.SocialMedia > div > img {
+  width: 30px;
+  height: 30px;
+  filter: grayscale(100%);
+}
+.SocialMedia > div > img:hover {
+  transition-delay: 0.6ms;
+  filter: none;
+}
+.SocialMedia {
+  display: flex;
+  align-items: center;
+  width: 10vw;
+  justify-content: space-around;
+}
+
+/*_____________________________*/

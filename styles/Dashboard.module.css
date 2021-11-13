@@ -1,0 +1,47 @@
+.Dashboard_holder{
+    
+    display: flex;
+    align-items: center;
+    background-color: #130148;;
+    height: 100vh;
+    justify-content: space-between;
+    
+}
+.Dashboard_holder_image{
+    border-radius: 50%;
+    display: flex;
+    background: white;
+    overflow: hidden;
+} 
+.Dashboard_Name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.Dashboard_Navigation{
+    width: 13%;
+  
+    color: white;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 19% 6% 70%;
+    justify-content: center;
+}
+.Navigation_dash> li {
+    list-style: none;
+}
+.Navigation_dash> li> a {
+    text-decoration: none;
+    color:white;
+}
+.Navigation_dash{
+    
+    height: 73%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+

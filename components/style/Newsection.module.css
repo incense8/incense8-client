@@ -1,0 +1,60 @@
+.Testmonials {
+  height: 300px;
+}
+
+.newsection {
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.animationtage {
+  display: flex;
+  align-items: center;
+}
+.animationnews {
+  height: 77%;
+  gap: 10px;
+  flex-wrap: wrap;
+
+  position: relative;
+  width: 77%;
+  overflow: hidden;
+  display: flex;
+  align-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+.animationtage ul {
+  gap: 3vw;
+  display: -webkit-inline-box;
+}
+.Testmonials {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.NewsContainer {
+  height: 9vh;
+
+  display: flex;
+  width: 100%;
+  overflow-x: hidden;
+  align-items: flex-end;
+
+  justify-content: center;
+}
+.animationnews > * {
+  display: inline-flex;
+  flex: 1 1 10%;
+  animation: Newsheadline 30s linear infinite;
+}
+@keyframes Newsheadline {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

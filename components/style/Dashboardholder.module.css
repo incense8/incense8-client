@@ -1,0 +1,33 @@
+.holder{
+    width: 98%;
+    background:#E6F4FF;;
+    height: 90%;
+    border-radius: 12px;
+    
+}
+.Dashboardhoolder_data{
+    border-radius: 10px;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center
+}
+.holder > div{
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.holder > div  >div{
+    width: 98%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.User_info_holder{
+    padding: 2%;
+    border-radius: 12px;
+    background: white;
+    box-shadow: rgb(174 174 255 / 10%) 0px 8px 24px, rgb(175 175 255 / 10%) 0px 16px 56px, rgb(17 17 26 / 10%) 0px 24px
+}
